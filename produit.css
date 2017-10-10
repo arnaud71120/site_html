@@ -1,0 +1,42 @@
+.listeProduit {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.produit {
+  width: 25%;
+  height: 300px;
+
+}
+.titreProduit {
+  margin-left: 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Open Sans',Arial,sans-serif;
+  color: #666;
+}
+.imgProduit {
+  margin: 0;
+  height: 178px;
+}
+.imgProduit img{
+  display: block;
+  width: 180px;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.desProduit p{
+  font-size: 13px;
+  font-family: 'Open Sans',Arial,sans-serif;
+  margin-top: 0;
+  margin-bottom: 8px;
+  height: 29px;
+  overflow: hidden;
+  line-height: 14px;
+  cursor: pointer;
+  display: block;
+  color: #595959;
+}

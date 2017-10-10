@@ -1,0 +1,41 @@
+.logo {
+  padding: 24px 0 16px;
+  max-width: 1000px;
+  margin: 0 auto 30px;
+}
+.logo .Account {
+  float: right;
+}.headerHaut {
+  background-color: #0096B1;
+  height: 45px;
+  color: white;
+  margin: 0 auto;
+  width: 100%;
+}
+.headerHaut ul li img {
+  color: red;
+  width: 35.6px;
+  margin: 5px 4px 4px 0;
+  height: 34px;
+  float: left;
+  padding-right: 10px;
+  padding-left: 0;
+}
+.headerHaut ul li.first {
+  padding-left: 0;
+}
+.headerHaut ul {
+  list-style: none;
+  margin: 0;
+}
+.headerHaut ul li {
+  display:table-cell;
+  height: 30px;
+}
+.headerHaut ul li span {
+  display: block;
+  float: left;
+  margin-top: 13px;
+  font-size: 13px;
+  font-family: 'Open Sans';
+}

@@ -1,0 +1,40 @@
+.navMenu {
+  max-width: 1000px;
+  margin: 0 auto 30px;
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 17px;
+  border-top: 1px solid #E6E6E6;
+  border-bottom: 1px solid #E6E6E6;
+  height: 60px;
+}
+.navMenu ul{
+  height: 60px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.navMenu ul li {
+  list-style: none;
+  display:table-cell;
+}
+.navMenu ul li a {
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 17px;
+  height: auto;
+  display: block;
+  color: #3b3b3b;
+  text-align: center;
+  text-decoration: none;
+}
+.navMenu ul li:hover {
+  background-color: #ff5c00;
+}
+.navMenu ul li:hover a {
+  color: white;
+}
+.navMenu ul li a{
+  text-decoration: none;
+  color: black;
+}

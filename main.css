@@ -1,0 +1,39 @@
+.imgDefile {
+  width: 100%
+  margin: 0 auto 30px;
+}
+.imgDefile img{
+  width: 100%;
+}
+
+.listeMagasin {
+  background-image: url("/images/liste-magasin.jpg");
+  height: 160px;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0 auto 30px;
+  background-position: center;
+}
+.Newsletter {
+  background-image: url('/images/bg-hp.jpg');
+  background-repeat: no-repeat;
+  height: 160px;
+  width: 100%;
+  margin: 0 auto 30px;
+  background-position: center;
+  text-align: center;
+}
+
+.grandeImage {
+  width: 100%;
+  margin: 0 auto 30px;
+  display: flex;
+  justify-content: center;
+}
+.grandeImage img{
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
